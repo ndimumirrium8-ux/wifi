@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SPHF Wi-Fi Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="portal">
+
+        <section class="portal-card">
+
+            <h1>SPHF Wi-Fi</h1>
+
+            <p class="welcome">
+                Welcome to the SPHF Community Wi-Fi Portal
+            </p>
+
+            <p>
+                Connect to the community network by completing the form below.
+            </p>
+
+            <form id="connectionForm">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter demo name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="0700000000"
+                        required
+                    >
+                </div>
+
+                <button type="submit">
+                    Connect to Wi-Fi
+                </button>
+
+            </form>
+
+            <p id="message"></p>
+
+            <footer>
+                <small>SPHF Wi-Fi Portal Training Prototype</small>
+            </footer>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

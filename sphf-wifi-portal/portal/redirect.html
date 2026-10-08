@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Redirecting | SPHF Wi-Fi</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="portal">
+
+        <section class="portal-card">
+
+            <h1>Connection Successful</h1>
+
+            <p class="welcome">
+                Preparing your connection...
+            </p>
+
+            <p>
+                Please wait while we take you to the
+                connection status page.
+            </p>
+
+            <div class="loading">
+                Connecting...
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+        setTimeout(function () {
+            window.location.href = "status.html";
+        }, 2000);
+    </script>
+
+</body>
+</html>
